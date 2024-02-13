@@ -11,12 +11,6 @@ const outputHTML1 = document.getElementById("output1");
 
 const outputHTML2 = document.getElementById("output2");
 
-//Loop thru the array 1
-// for (let i = 0; i < choice1Array.length; i++) {
-//     const liElement = document.createElement("li");
-//     liElement.textContent = choice1Array[i];
-//     outputHTML.appendChild(liElement);
-// }
 
 //Initialize current index
 let currentIndex1 = 0;
