@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+}
+html {
+    margin: 40px;
+}
+button {
+    margin: 20px;
+    font-size: 18px;
+}
+li {
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.choice {
+    display: inline-grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-items: center;
+}
+.button-6 {
+    padding: 10px 20px;
+}
+#output1, #output2 {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+#output1 {
+    background-color: aqua;
+}
+#output2 {
+    background-color: hotpink;
+}
