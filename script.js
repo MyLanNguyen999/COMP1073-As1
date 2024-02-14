@@ -92,3 +92,24 @@
     choice4Button.addEventListener("click", cycleWords4);
 
 //* CHOICE 5
+    //Create array for Choice 5
+    const choice5Array =["in the summer.", "during the springtime.", "every mid-month.", "last week.", "every morning."];
+
+    //Capture ID output 5 for text replacement
+    const outputHTML5 = document.getElementById("output5");
+
+    //Initialize current index for Choice 3
+    let currentIndex5 = 0;
+    outputHTML5.textContent = choice5Array[currentIndex5];
+
+    // Create function to cycle thru words of Choice 5
+    function cycleWords5() {
+        currentIndex5 = (currentIndex5 + 1) % choice5Array.length;
+        outputHTML5.textContent = choice5Array[currentIndex5];
+    }
+    
+    //Capture button choice 3
+    const choice5Button = document.getElementById("button-5");
+
+    //Add event listener
+    choice5Button.addEventListener("click", cycleWords5);
