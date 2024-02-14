@@ -30,7 +30,7 @@
     const outputHTML2 = document.getElementById("output2");
 
     //Initialize current index for Choice 2
-    let currentIndex2 = 0
+    let currentIndex2 = 0;
     outputHTML2.textContent = choice2Array[currentIndex2];
 
     // Create function to cycle thru words of Choice 2
@@ -53,7 +53,7 @@
     const outputHTML3 = document.getElementById("output3");
 
     //Initialize current index for Choice 3
-    let currentIndex3 = 0
+    let currentIndex3 = 0;
     outputHTML3.textContent = choice3Array[currentIndex3];
 
     // Create function to cycle thru words of Choice 3
@@ -68,3 +68,27 @@
     //Add event listener
     choice3Button.addEventListener("click", cycleWords3);
 
+//* CHOICE 4
+    //Create array for Choice 4
+    const choice4Array =["in the tree", "in the backyard", "in the sky", "in the dark", "during the storm"];
+
+    //Capture ID output 4 for text replacement
+    const outputHTML4 = document.getElementById("output4");
+
+    //Initialize current index for Choice 4
+    let currentIndex4 = 0;
+    outputHTML4.textContent = choice4Array[currentIndex4];
+
+    // Create function to cycle thru words of Choice 4
+    function cycleWords4() {
+        currentIndex4 = (currentIndex4 + 1) % choice4Array.length;
+        outputHTML4.textContent = choice4Array[currentIndex4];
+    }
+    
+    //Capture button choice 4
+    const choice4Button = document.getElementById("button-4");
+
+    //Add event listener
+    choice4Button.addEventListener("click", cycleWords4);
+
+//* CHOICE 5
