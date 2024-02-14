@@ -22,7 +22,11 @@ li {
 .button-6 {
     padding: 10px 20px;
 }
-#output1, #output2 {
+#output1, 
+#output2, 
+#output3, 
+#output4,
+#output5 {
     border: 1px solid black;
     padding: 10px;
     font-size: 20px;
@@ -32,4 +36,13 @@ li {
 }
 #output2 {
     background-color: hotpink;
+}
+#output3 {
+    background-color: gold;
+}
+#output4 {
+    background-color:lightgreen ;
+}
+#output5 {
+    background-color:lightseagreen ;
 }
